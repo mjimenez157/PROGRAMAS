@@ -30,7 +30,7 @@ public class Temperaturas {
         for (int i = 1; i <= 7; i++) {
 
             System.out.print("Ingrese temperatura: ");
-            int temp = sc.nextLine();         /*  La temperatura estaba como texto string y la temperatura debe ser numero  */
+            int temp = sc.nexInt();         /*  La temperatura estaba como texto string y la temperatura debe ser numero  */
             suma = suma + temp;
             
              if(temp < menor){
