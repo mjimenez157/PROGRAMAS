@@ -3,18 +3,17 @@ mayor = 0
 contador = 0
 
 for i in range(5):
-    venta = float(input(f"Ingrese venta {i+1}: "))
+    venta = float(input(f"Ingrese venta {i+1}: "))          #1
     
     total = total + venta
     
     if venta > mayor:
-        mayor = venta
+        mayor = venta          #2
         
-    if venta > 1000000:
+    if venta > 1000000:          #3
         contador += 1
 
 promedio = total / 5
-print("\n--- Resultados ---")
 print("Promedio:", promedio)
 print("Mayor venta:", mayor)
 print("Cantidad mayores al millón:", contador)
