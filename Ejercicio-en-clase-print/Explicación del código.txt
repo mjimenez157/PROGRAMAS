@@ -1,0 +1,29 @@
+# ¿Qué hace el programa?
+Usa cadenas de texto (conocida como string o cadena de caracteres).
+Es un tipo de dato que representa una secuencia de caracteres alfanuméricos 
+(letras, números, espacios y símbolos). En programación, se utilizan para almacenar
+y manipular datos de texto, como nombres, frases o contraseñas.
+
+PRIMERA LINEA: Se crea una Variable llamada Duplicar y se guarda el Dato almacenado.
+variable = duplicar
+dato almacenado = ("     *     \n    * *    \n   *   *   \n  *     *  \n ***   *** \n   *   *   \n   *   *   \n   *****   ")
+
+\n  Significa: El salto de línea.
+print("Hola\nMundo")
+IMPRIME
+Hola
+Mundo
+
+print("     **     ")
+print("    ** **    ")
+print("   **   **   ")
+print("  **     **  ")
+print(" ****   **** ")
+print("   **   **   ")
+print("   **   **   ")
+print("   *******   ") 
+
+print(duplicar)  Muestra el contenido de la variable.
+
+ULTIMA LINEA:  Significa: Que repite el texto ej: duplicar + duplicar
+print(duplicar * 2) #
